@@ -1,0 +1,12 @@
+{% set project = pt.data.get('projects.yml').projects[ pt.request.getUrlSegment(2) ] %}
+
+{% if project %}
+  <div class="content">
+    <h1>{{ project.title }}</h1>
+    <div class="body">
+      {{ project.body }}
+    </div>
+  </div>
+{% else %}
+  <p>No projects found, sorry!</p>
+{% endif %}

@@ -1,0 +1,7 @@
+projects:
+  Foo:
+    title: Fubar
+    body: Blah Blah blah
+  Bar:
+    title: Will it work?
+    body:

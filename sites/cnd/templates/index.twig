@@ -1,0 +1,13 @@
+{% extends "_base/_page.html.twig"  %}
+
+{% block navigation %}
+  {{ pt.snippets.navigation.pageTree({
+    'currentClass': 'active',
+    'parentClass' : 'active-trail',
+  }) }}
+{% endblock navigation %}
+
+{% block body %}
+  {% set projectPage = pt.pages.getById('project') %}
+  {{ dump(projectPage) }}
+{% endblock %}

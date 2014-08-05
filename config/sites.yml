@@ -1,0 +1,9 @@
+cnd:
+  domain: cnd.pt
+  location: sites/cnd
+  environment: local
+
+default:
+  domain: '*'
+  location: sites/default
+  environment: live

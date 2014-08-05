@@ -1,0 +1,3 @@
+project:
+  match: "our-work/project/{any}"
+  display: "our-work/project"
