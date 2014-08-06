@@ -24,6 +24,17 @@ partners:
         given: Kendra
         family: Buchanan
   
+  MindComet:
+    account: "Mind Comet"
+    website: 'https://www.facebook.com/mindcomet'
+    date:
+      start: 
+      end: 
+    project-manager:
+      -
+        given: Cathleen
+        family: Ayala
+  
   BCM:
     account: Big Couch Media Group
     website: 'www.bigcouchmedia.com'
@@ -35,14 +46,14 @@ partners:
       family: Studdard
     project-manager:
       -
+        given: John
+        family: Studdard
+      -
         given: Maria
         family: Nelson
       -
         given: Pamela
         family: Stoyka-Bishop
-      -
-        given: John
-        family: Studdard
       -
         given: Cathy
         family: Chavez
@@ -73,10 +84,10 @@ partners:
     project-manager:
       -
         given: Jeff
-        family: 
+        family: Simpson
       -
-        given: 
-        family: 
+        given: Alex
+        family: Shippee
   
   BDFM:
     account: 'Boost / Digital Frontiers Media'

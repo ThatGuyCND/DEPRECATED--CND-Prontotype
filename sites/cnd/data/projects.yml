@@ -1,7 +1,115 @@
 projects:
-  Foo:
-    title: Fubar
-    body: Blah Blah blah
-  Bar:
-    title: Will it work?
-    body:
+  FHP:
+    title: 'Florida Hospital Publishing'
+    body: 'Built and themed in three [3] days!'
+    url: 'http://www.floridahospitalpublishing.com/'
+    screenshot: 1
+    partner: FHTEN
+    drupal: D6
+    responsibilities:
+      - ''
+#   GT:
+#     title: 'Gator Tutoring'
+#     body: ''
+#     url: ''
+#     screenshot: ''
+#     partner: DE
+#     drupal: D6
+#     responsibilities:
+#       - ''
+  JBTBR:
+    title: 'JetBlue Magazine Rewards'
+    body: ''
+    url: 'https://trueblue.jetblue.com/web/trueblue/home'
+    screenshot: 
+    partner: DE
+    drupal: D6
+    responsibilities:
+      - ''
+  FHHC:
+    title: 'Florida Hospital Home Care'
+    body: ''
+    url: 'http://www.floridahospitalhomecare.com/'
+    screenshot: 1
+    partner: FHTEN
+    drupal: D6
+    responsibilities:
+      - ''
+  MJCPRK:
+    title: 'Maryland Jockey Club - The Preakness'
+    body: ''
+    url: 'http://www.preakness.com/'
+    screenshot: 1
+    partner: BCM
+    drupal: D6
+    responsibilities:
+      - ''
+  MJCGSP:
+    title: 'Maryland Jockey Club - Gulf Stream Park'
+    body: ''
+    url: 'http://www.gulfstreampark.com/'
+    screenshot: 1
+    partner: BCM
+    drupal: D6
+    responsibilities:
+      - ''
+  MJCGGF:
+    title: 'Maryland Jockey Club - Golden Gate Fields'
+    body: ''
+    url: 'http://www.goldengatefields.com/'
+    screenshot: 1
+    partner: BCM
+    drupal: D6
+    responsibilities:
+      - ''
+  PC:
+    title: 'PuroClean'
+    body: ''
+    url: 'http://www.puroclean.com/'
+    screenshot: 1
+    partner: BCM
+    drupal: [D6, D7]
+    responsibilities:
+      - ''
+  VN:
+    title: 'VitaNova'
+    body: ''
+    url: 'http://www.vitanovainc.org/'
+    screenshot: ''
+    partner: BCM
+    drupal: D6
+    responsibilities:
+      - ''
+#   YNO:
+#     title: 'Your Natural Options'
+#     body: ''
+#     url: ''
+#     screenshot: ''
+#     partner: [BCM, DE]
+#     drupal: D6
+#     responsibilities:
+#       - ''
+  TE:
+    title: 'Thomas Estates'
+    body: ''
+    url: 'https://www.wentevineyards.com/'
+    screenshot: ''
+    partner: MindComet
+    drupal: D6
+    responsibilites:
+      - ''
+  EYEOYWN:
+    title: 'Ernst & Young Entrepreneur of the Year Winners Network'
+    body: 'The Ernst & Young Entrepreneur of the Year Winners network was brought to our attention by our partner <a href="" class="use-ajax" data-partner="PCD">Peppercomm Digital</a>. The project was long and arduous, but we prevailed; building a teaser and demonstration on short notice for a trade show, and forcing the existing hacked-to-hight-hell D6 site to allow LinkedIn log in. Next was to redesign and rebuild the social networking site in Drupal 7.'
+    url: 'htt://eoywinnersnetwork.com'
+    screenshot: ''
+    partner: PCD
+    drupal: [D6, D7]
+    responsibilities:
+      - 'theme design'
+      - 'custom module development'
+      - 'import scripts'
+  DCLA:
+    title: 'DrupalCon Los Angeles'
+    body: ''
+    url: 'https://losangeles2015.drupal.org/'
