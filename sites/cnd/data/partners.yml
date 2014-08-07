@@ -1,7 +1,8 @@
 partners:
   DE:
-    account: DrupalEasy
+    account: 'DrupalEasy'
     website: 'http://drupaleasy.com/'
+    logo: 1
     date:
       start: 2009-03
       end: present
@@ -14,8 +15,9 @@ partners:
         family: Anello
   
   FHTEN:
-    account: "Florida Hospital: The Experience Network"
+    account: "Florida Hospital - The Experience Network"
     website: 'https://www.facebook.com/theexperiencenetwork'
+    logo: 1
     date:
       start: 2010-01
       end: 2011-02
@@ -27,6 +29,7 @@ partners:
   MindComet:
     account: "Mind Comet"
     website: 'https://www.facebook.com/mindcomet'
+    logo: 1
     date:
       start: 
       end: 
@@ -36,8 +39,9 @@ partners:
         family: Ayala
   
   BCM:
-    account: Big Couch Media Group
-    website: 'www.bigcouchmedia.com'
+    account: 'Big Couch Media Group'
+    website: 'http://www.bigcouchmedia.com'
+    logo: 1
     date:
       start: 2009-05
       end: 2013-04
@@ -59,8 +63,9 @@ partners:
         family: Chavez
   
   PS:
-    account: Promet Source
+    account: 'Promet Source'
     website: 'http://www.prometsource.com/'
+    logo: 1
     date:
       start: 2011-09
       end: 2014-02
@@ -76,8 +81,9 @@ partners:
         family: Rudesill
   
   PCD:
-    account: PepperComm Digital
+    account: 'PepperComm Digital'
     website: 'http://www.peppercomm.com/'
+    logo: 1
     date:
       start: 
       end: 
@@ -89,9 +95,28 @@ partners:
         given: Alex
         family: Shippee
   
+  DA:
+    account: 'Drupal Association'
+    website: 'http://association.drupal.org'
+    logo: 1
+    date:
+      start: 2014-03
+      end: 2014-06
+    owner:
+      given: Dries
+      family: Buytaert
+    project-manager:
+      -
+        given: Stephanie
+        family: Torres
+      -
+        given: Joe
+        family: Saylor
+  
   BDFM:
-    account: 'Boost / Digital Frontiers Media'
-    website:
+    account: 'BoostDFM'
+    website: 'http://boostdfm.com/'
+    logo: 1
     date:
       start: 2014-02
       end: present

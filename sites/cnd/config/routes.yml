@@ -1,3 +1,6 @@
 project:
   match: "our-work/project/{any}"
   display: "our-work/project"
+partner:
+  match: "partners/partner/{any}"
+  display: "partners/partner"

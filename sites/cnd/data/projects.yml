@@ -89,15 +89,43 @@ projects:
 #     drupal: D6
 #     responsibilities:
 #       - ''
-  TE:
-    title: 'Thomas Estates'
+#   TE:
+#     title: 'Thomas Estates'
+#     body: ''
+#     url: 'https://www.wentevineyards.com/'
+#     screenshot: ''
+#     partner: MindComet
+#     drupal: D6
+#     responsibilites:
+#       - ''
+  FICPR:
+    title: 'Florida Institute - Commercialization of Public Research'
     body: ''
-    url: 'https://www.wentevineyards.com/'
-    screenshot: ''
-    partner: MindComet
+    url: 'http://www.florida-institute.com/'
+    screenshot: 
+    partner: BCM
     drupal: D6
-    responsibilites:
+    responsibilities:
       - ''
+  RMR:
+    title: 'Remer Services, Inc.'
+    body: ''
+    url: 'http://remerservicesinc.com/'
+    screenshot: 
+    partner: BCM
+    drupal: D6
+    responsibilities:
+      - ''
+  UR:
+    title: 'Urban ReThink'
+    body: ''
+    url: 'http://urbanrethink.com'
+    screenshot: 
+    partner: ''
+    drupal: D6
+    responsibilities:
+      - 'Design'
+      - 'Theme Development'
   EYEOYWN:
     title: 'Ernst & Young Entrepreneur of the Year Winners Network'
     body: 'The Ernst & Young Entrepreneur of the Year Winners network was brought to our attention by our partner <a href="" class="use-ajax" data-partner="PCD">Peppercomm Digital</a>. The project was long and arduous, but we prevailed; building a teaser and demonstration on short notice for a trade show, and forcing the existing hacked-to-hight-hell D6 site to allow LinkedIn log in. Next was to redesign and rebuild the social networking site in Drupal 7.'
@@ -106,10 +134,17 @@ projects:
     partner: PCD
     drupal: [D6, D7]
     responsibilities:
-      - 'theme design'
-      - 'custom module development'
-      - 'import scripts'
+      - 'Design'
+      - 'Theme Development'
+      - 'Module Development'
+      - 'Scripting'
   DCLA:
     title: 'DrupalCon Los Angeles'
     body: ''
     url: 'https://losangeles2015.drupal.org/'
+    screenshot: 
+    partner: DA
+    drupal: D6
+    responsibilities:
+      - 'Design'
+      - 'Prototype'

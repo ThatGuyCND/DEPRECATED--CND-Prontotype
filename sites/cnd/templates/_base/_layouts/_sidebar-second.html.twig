@@ -1,0 +1,14 @@
+{% extends "_base/_page.html.twig"  %}
+
+{% block body %}
+  <div class="main-content has-sidebar has-sidebar-second">
+    <div class="l-content">
+      {% block lContent %}
+      {% endblock lContent %}
+    </div>
+    <div class="l-sidebar-second">
+      {% block lSidebarFirst %}
+      {% endblock lSidebarFirst %}
+    </div>
+  </div>
+{% endblock %}

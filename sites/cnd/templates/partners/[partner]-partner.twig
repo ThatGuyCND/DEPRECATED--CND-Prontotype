@@ -1,0 +1,15 @@
+{% set partner = pt.data.get('partners.yml').partners[ pt.request.getUrlSegment(2) ] %}
+
+{% if partner %}
+  <div class="content">
+    <h1>{{ partner.account }}</h1>
+    {% if partner.date.start and partner.date.end %}
+    <div class="tenure">
+      <span class="date__start">{{ partner.date.start }}</span>
+      <span class="date__end">{{ partner.date.end }}</span>
+    </div>
+    {% endif %}
+  </div>
+{% else %}
+  <p>No projects found, sorry!</p>
+{% endif %}

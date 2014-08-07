@@ -1,0 +1,23 @@
+{% extends "_base/_layouts/_no-sidebars.html.twig"  %}
+
+{% set partners = pt.data.get('partners.yml').partners %}
+
+{% block lContent %}
+  {% for partner in partners %}
+    <article class="partner__listing">
+      {% if partner.logo %}
+        <a href="{{ partner.website }}" target="_blank">
+          <picture>
+            {#
+            <source media="(min-width: 64em)" src="high-res.jpg">
+            <source media="(min-width: 37.5em)" src="med-res.jpg">
+            <source src="/_assets/images/partners/{{ partner.account }}/logo.png">
+            #}
+            <img src="/_assets/images/partners/{{ partner.account }}/logo.png" alt="{{ partner.account }} | {{ partner.website }}"/>
+          </picture>
+        </a>
+      {% endif %}
+      {# <h2><a href="{{ partner.website }}" target="_blank">{{ partner.account }}</a></h2> #}
+    </article>
+  {% endfor %}
+{% endblock lContent %}
