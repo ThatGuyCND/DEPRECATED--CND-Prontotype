@@ -25,6 +25,7 @@ javascripts_dir = "_assets/js"
 fonts_dir = "_assets/fonts"
 
 # Require any additional compass plugins installed on your system.
+require 'compass'
 require 'compass-normalize'
 require 'rgbapng'
 require 'toolkit'

@@ -6,6 +6,8 @@ $true-black: #000;
 $true-white: #fff;
 
 $grey: rgb(126, 126, 126);
+$light-grey: tint($grey, 50%);
+$lightest-grey: rgb(215, 215, 215);
 
 // Links
 $link--blue: rgb(28, 117, 188);

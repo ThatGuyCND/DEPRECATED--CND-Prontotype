@@ -1,12 +1,31 @@
+{% extends "_base/_layouts/_sidebar-second.html.twig"  %}
+
 {% set project = pt.data.get('projects.yml').projects[ pt.request.getUrlSegment(2) ] %}
 
-{% if project %}
-  <div class="content">
-    <h1>{{ project.title }}</h1>
-    <div class="body">
-      {{ project.body }}
+{% block lContent %}
+  {% if project %}
+    <div class="node__project--full">
+      <h1>{{ project.title }}</h1>
+      <ul class="links links__inline node--links node--links__inline">
+        <li><a class="button button--action" href="{{ project.url }}" target="_blank">Visit Site</a></li>
+        <li><span class="label">Drupal Version:&nbsp;</span>{{ project.drupal|join(', ') }}</li>
+      </ul>
+      <div class="project--description">
+        {{ project.body }}
+      </div>
     </div>
-  </div>
-{% else %}
-  <p>No projects found, sorry!</p>
-{% endif %}
+  {% else %}
+    <p>No projects found, sorry!</p>
+  {% endif %}
+{% endblock lContent %}
+
+{% block lSidebarSecond %}
+  {% if project %}
+    {{ dump(project.responsibilities) }}
+{#
+    {% for responsibility in project.responsibilities %}
+      
+    {% endfor %}
+#}
+  {% endif %}
+{% endblock lSidebarSecond %}

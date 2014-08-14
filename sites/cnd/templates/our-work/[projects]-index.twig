@@ -1,5 +1,11 @@
+{# Extend a base template so that we get everythgin else that is set on the page display #}
+{% extends "_base/_layouts/_no-sidebars.html.twig"  %}
+
+{# Setup data that needs to be iterated through #}
 {% set projects = pt.data.get('projects.yml').projects %}
 
-{% for project in projects %}
-  <h2><a href="{{ project.url }}" target="_blank">{{ project.title }}</a></h2>
-{% endfor %}
+{% block lContent %}
+  {% for project in projects %}
+    <h2><a href="{{ project.url }}" target="_blank">{{ project.title }}</a></h2>
+  {% endfor %}
+{% endblock lContent %}
