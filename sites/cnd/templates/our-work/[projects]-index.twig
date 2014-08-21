@@ -6,6 +6,6 @@
 
 {% block lContent %}
   {% for project in projects %}
-    <h2><a href="{{ project.url }}" target="_blank">{{ project.title }}</a></h2>
+    <h2><a href="/our-work/project/{{ project.abbr }}"{#  target="_blank" #}>{{ project.title }}</a></h2>
   {% endfor %}
 {% endblock lContent %}

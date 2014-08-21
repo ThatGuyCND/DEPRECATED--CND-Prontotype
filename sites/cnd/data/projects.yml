@@ -1,15 +1,17 @@
 projects:
   FHP:
     title: 'Florida Hospital Publishing'
+    abbr: FHP
     body: 'Built and themed in three [3] days!'
     url: 'http://www.floridahospitalpublishing.com/'
     screenshot: 1
     partner: FHTEN
     drupal: D6
-    responsibilities:
-      - ''
+#     responsibilities:
+#       - ''
 #   GT:
 #     title: 'Gator Tutoring'
+#     abbr: 
 #     body: ''
 #     url: ''
 #     screenshot: ''
@@ -19,6 +21,7 @@ projects:
 #       - ''
   JBTBR:
     title: 'JetBlue Magazine Rewards'
+    abbr: JBTBR
     body: ''
     url: 'https://trueblue.jetblue.com/web/trueblue/home'
     screenshot: 
@@ -28,6 +31,7 @@ projects:
       - ''
   FHHC:
     title: 'Florida Hospital Home Care'
+    abbr: FHHC
     body: ''
     url: 'http://www.floridahospitalhomecare.com/'
     screenshot: 1
@@ -37,6 +41,7 @@ projects:
       - ''
   MJCPRK:
     title: 'Maryland Jockey Club - The Preakness'
+    abbr: MJCPRK
     body: ''
     url: 'http://www.preakness.com/'
     screenshot: 1
@@ -46,6 +51,7 @@ projects:
       - ''
   MJCGSP:
     title: 'Maryland Jockey Club - Gulf Stream Park'
+    abbr: MJCGSP
     body: ''
     url: 'http://www.gulfstreampark.com/'
     screenshot: 1
@@ -55,6 +61,7 @@ projects:
       - ''
   MJCGGF:
     title: 'Maryland Jockey Club - Golden Gate Fields'
+    abbr: MJCGGF
     body: ''
     url: 'http://www.goldengatefields.com/'
     screenshot: 1
@@ -64,6 +71,7 @@ projects:
       - ''
   PC:
     title: 'PuroClean'
+    abbr: PC
     body: ''
     url: 'http://www.puroclean.com/'
     screenshot: 1
@@ -73,6 +81,7 @@ projects:
       - ''
   VN:
     title: 'VitaNova'
+    abbr: VN
     body: ''
     url: 'http://www.vitanovainc.org/'
     screenshot: ''
@@ -82,6 +91,7 @@ projects:
       - ''
 #   YNO:
 #     title: 'Your Natural Options'
+#     abbr: YNO
 #     body: ''
 #     url: ''
 #     screenshot: ''
@@ -91,6 +101,7 @@ projects:
 #       - ''
 #   TE:
 #     title: 'Thomas Estates'
+#     abbr: TE
 #     body: ''
 #     url: 'https://www.wentevineyards.com/'
 #     screenshot: ''
@@ -100,6 +111,7 @@ projects:
 #       - ''
   FICPR:
     title: 'Florida Institute - Commercialization of Public Research'
+    abbr: FICPR
     body: ''
     url: 'http://www.florida-institute.com/'
     screenshot: 
@@ -109,6 +121,7 @@ projects:
       - ''
   RMR:
     title: 'Remer Services, Inc.'
+    abbr: RMR
     body: ''
     url: 'http://remerservicesinc.com/'
     screenshot: 
@@ -118,6 +131,7 @@ projects:
       - ''
   UR:
     title: 'Urban ReThink'
+    abbr: UR
     body: ''
     url: 'http://urbanrethink.com'
     screenshot: 
@@ -128,6 +142,7 @@ projects:
       - 'Theme Development'
   EYEOYWN:
     title: 'Ernst & Young Entrepreneur of the Year Winners Network'
+    abbr: EYEOYWN
     body: 'The Ernst & Young Entrepreneur of the Year Winners network was brought to our attention by our partner <a href="" class="use-ajax" data-partner="PCD">Peppercomm Digital</a>. The project was long and arduous, but we prevailed; building a teaser and demonstration on short notice for a trade show, and forcing the existing hacked-to-hight-hell D6 site to allow LinkedIn log in. Next was to redesign and rebuild the social networking site in Drupal 7.'
     url: 'htt://eoywinnersnetwork.com'
     screenshot: ''
@@ -140,6 +155,7 @@ projects:
       - 'Scripting'
   DCLA:
     title: 'DrupalCon Los Angeles'
+    abbr: DCLA
     body: ''
     url: 'https://losangeles2015.drupal.org/'
     screenshot: 

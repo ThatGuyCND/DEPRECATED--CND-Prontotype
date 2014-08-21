@@ -5,27 +5,31 @@
 {% block lContent %}
   {% if project %}
     <div class="node__project--full">
-      <h1>{{ project.title }}</h1>
+      <h1 class="page__title node__title node__project--title project__title">{{ project.title }}</h1>
       <ul class="links links__inline node--links node--links__inline">
         <li><a class="button button--action" href="{{ project.url }}" target="_blank">Visit Site</a></li>
         <li><span class="label">Drupal Version:&nbsp;</span>{{ project.drupal|join(', ') }}</li>
       </ul>
-      <div class="project--description">
+      <div class="project__description">
         {{ project.body }}
       </div>
     </div>
   {% else %}
-    <p>No projects found, sorry!</p>
+    <p>A project with that abbreviation couldn't be found, sorry!</p>
   {% endif %}
 {% endblock lContent %}
 
 {% block lSidebarSecond %}
-  {% if project %}
-    {{ dump(project.responsibilities) }}
-{#
-    {% for responsibility in project.responsibilities %}
-      
-    {% endfor %}
-#}
+  {% if project.responsibilities is defined %}
+  <div class="block__project--responsibilities">
+    <h3 class="block__title">Responsibilities:</h3>
+    <div class="block__content">
+      <ul class="project--responsibilities">
+        {% for responsibility in project.responsibilities %}
+          <li class="project__responsibility project__responsibility--{{ responsibility|lower|replace({'development': 'dev'})|replace(' ', '-') }}">{{ responsibility }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
   {% endif %}
 {% endblock lSidebarSecond %}
